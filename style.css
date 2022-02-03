@@ -76,13 +76,22 @@ html {
 }
 .menu {
     margin: 0;
-    display: grid;
     justify-content: center;
 }
 .menu-title {
+    text-align: center;
+    margin: 0 auto;
     color: #333;
-    font-size: 3rem;
+    font-size: 4rem;
     font-weight: bolder;
     margin-bottom: 24px;
 }
-
+.menu-grid {
+    margin: 50px 0;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+.menu-grid-item img{
+    width: 100%;
+    height: 100%;
+}
