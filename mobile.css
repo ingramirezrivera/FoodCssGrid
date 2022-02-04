@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+    font-family: 'Roboto', sans-serif;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.hero {
+    padding: 0px;
+    padding-bottom: 50px;
+    display: grid;
+    grid-template-columns: minmax(300px,2fr) 3fr ;
+    grid-auto-rows: 400px;
+    justify-content: center;
+    justify-items: center;
+    border-bottom: 1px solid lightgray;
+}
+
+.info-title {
+    font-size: 4rem;
+}
+.dishes-grid {
+    margin: 28px;
+    gap: 20px;
+    grid-template-columns: repeat(autofit, minmax(150px, 200px));
+}
+.dishes-title {
+    font-size: 3.2rem;
+}
+.menu-title {
+    font-size: 3.2rem;
+}
+}

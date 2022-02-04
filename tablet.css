@@ -1,0 +1,22 @@
+.info {
+    margin-top: 50px;
+}
+.hero {
+    grid-template-columns: 1fr;
+    grid-auto-rows: max-content;
+    padding: 20px;
+    padding-bottom: 50px;
+}
+.hero img {
+    margin: 35px 0;
+    width: 60%
+}
+.menu-grid {
+    margin: 0 20px;
+    padding-bottom: 50px;
+}
+.dishes-grid {
+    margin: 28px;
+    gap: 20px;
+    grid-template-columns: repeat(autofit, minmax(150px, 200px));
+}
